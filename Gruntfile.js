@@ -428,7 +428,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:gd8.github.io/gd8.github.io.git',
+          remote: 'git@github.com:gd8/gd8.github.io.git',
           branch: 'gh-pages'
         }
       },
