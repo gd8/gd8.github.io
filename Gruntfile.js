@@ -429,7 +429,9 @@ module.exports = function (grunt) {
       pages: {
         options: {
           remote: 'https://gd8@github.com/gd8/gd8.github.io.git',
-          branch: 'gh-pages'
+          branch: 'master',
+					commit: true,
+      		push: true
         }
       },
       local: {
